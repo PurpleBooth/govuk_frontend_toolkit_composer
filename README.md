@@ -27,3 +27,8 @@ composer.phar require alphagov/govuk_frontend_toolkit:dev-master
 ## Usage
 
 This repository is a component-installer component. See the [component-installer](https://github.com/RobLoach/component-installer) project for more details.
+
+## Updating the satis repository
+
+For your convenience this satis repository is hosted on google app engine. However feel free to host it wherever you'd like.
+See the [satis page](https://getcomposer.org/doc/articles/handling-private-packages-with-satis.md) for more details. 
