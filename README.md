@@ -6,7 +6,8 @@ Already hosted at [govuk-frontend-toolkit.appspot.com](https://govuk-frontend-to
 
 ## Installing
 
-Adding the repository to composer.json:
+Add the repository to composer.json:
+
 ```json
 {
     "repositories": [
