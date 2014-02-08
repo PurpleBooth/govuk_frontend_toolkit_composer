@@ -26,7 +26,19 @@ composer.phar require alphagov/govuk_frontend_toolkit:dev-master
 
 ## Usage
 
-This repository is a component-installer component. See the [component-installer](https://github.com/RobLoach/component-installer) project for more details.
+The alphagov/govuk_frontend_toolkit package is a component-installer component. See the [component-installer](https://github.com/RobLoach/component-installer) project for details on how to change the directory it installs JS and SASS files to.
+
+### Symfony
+
+An example configuration for Symfony would be the following config in your composer.json
+```json
+"config": {
+    "component-dir": "web/components",
+    "component-baseurl": "/components"
+}
+```
+
+JS and SASS is installed to ```web/components/govuk_frontend_toolkit```
 
 ## Updating the satis repository
 
