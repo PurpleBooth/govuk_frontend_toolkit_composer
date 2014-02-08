@@ -2,7 +2,7 @@
 
 A satis repository for the [govuk_frontend_toolkit](http://github.com/alphagov/govuk_frontend_toolkit).
 
-Already hosted at [govuk-frontend-toolkit.appspot.com](https://govuk-frontend-toolkit.appspot.com).
+Already hosted at [govuk-frontend-toolkit.appspot.com](https://govuk-frontend-toolkit.appspot.com/index.html).
 
 ## Installing
 
