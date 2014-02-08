@@ -1,0 +1,10 @@
+/bin
+/.settings
+/.project
+/.buildpath
+/satis.phar
+/vendor
+/phpunit.xml
+/composer.phar
+*~
+/.idea

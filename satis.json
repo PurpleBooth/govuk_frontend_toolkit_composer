@@ -1,0 +1,39 @@
+{
+    "name":"alphagov",
+    "homepage" : "https://govuk-frontend-toolkit.appspot.com",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "alphagov/govuk_frontend_toolkit",
+                "version": "master",
+                "type": "component",
+                "source": {
+                    "type": "git",
+                    "reference": "master",
+                    "url": "https://github.com/alphagov/govuk_frontend_toolkit.git"
+                },
+                "extra": {
+                    "component": {
+                        "scripts": [
+                            "javascripts/**"
+                        ],
+                        "styles": [
+                            "stylesheets/**"
+                        ],
+                        "files" : [
+                            "images/**"
+                        ]
+                    }
+                },
+                "require": {
+                    "robloach/component-installer": "*"
+                }
+            }
+        }
+    ],
+    "require": {
+        "alphagov/govuk_frontend_toolkit": "*"
+    },
+    "output-dir" : "web/"
+}
