@@ -38,6 +38,12 @@ An example configuration for Symfony would be the following config in your compo
 }
 ```
 
+If you ran the require step before adding this configuration, update.
+
+```bash
+composer.phar update
+```
+
 JS and SASS is installed to ```web/components/govuk_frontend_toolkit```
 
 ## Updating the satis repository
